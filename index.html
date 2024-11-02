@@ -3,35 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+
     <title>JustaWeatherApp</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Damascus</h1>
-        <p>
-          Friday 12:14, Sunny
-          <br />
-          Humidity: 50%, Wind: 22km/h
-        </p>
-      </div>
-      <div>☀ 15℃</div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/Senka87" target="_blank">Senka Alsabbagh</a>
-      | opened-sourced on
-      <a href="https://github.com/Senka87/Just-a-Weather-App" target="_blank"
-        >Github</a
-      >
-      | hosted on
-      <a href="https://theweathernews.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+    <div class="app-box">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city.." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Damascus</h1>
+          <p>
+            Friday 12:14, Sunny
+            <br />
+            Humidity: 50%, Wind: 22km/h
+          </p>
+        </div>
+        <div>☀ 15℃</div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/Senka87" target="_blank">Senka Alsabbagh</a>
+        | opened-sourced on
+        <a href="https://github.com/Senka87/Just-a-Weather-App" target="_blank"
+          >Github</a
+        >
+        | hosted on
+        <a href="https://theweathernews.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
