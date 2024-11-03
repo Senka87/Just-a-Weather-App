@@ -1,15 +1,51 @@
 body {
-  background-color: bisque;
+  background: whitesmoke;
   font-family: "Kanit", sans-serif;
 }
 .app-box {
   background: white;
   max-width: 600px;
-  margin: 45px, auto;
-  padding: 30px;
+  margin: 45px auto;
+  padding: 50px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
   border-radius: 16px;
+}
+
+header {
+  border-bottom: 1px solid #5f5dbd;
+  padding: 0 0 30px 0;
+}
+
+.search-form-input {
+  background-color: #95e8d7;
+  border: none;
+  border-radius: 6px;
+  width: 60%;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+.search-form-button {
+  background-color: #7dace4;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 20px;
+  font-size: 18px;
+  color: aliceblue;
+  font-size: 18px;
+  margin-left: 8px;
+}
+footer {
+  border-top: 1px solid #5f5dbd;
+  padding: 10px 0 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: #636466;
+}
+
+a {
+  color: #7dace4;
 }
