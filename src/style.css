@@ -69,11 +69,11 @@ main {
 }
 
 .weather-app-icon {
-  font-size: 65px;
+  font-size: 30px;
   margin-top: 11px;
 }
 .weather-app-temperature {
-  font-size: 70px;
+  font-size: 80px;
   font-weight: bold;
   color: #3c3b91;
 }
